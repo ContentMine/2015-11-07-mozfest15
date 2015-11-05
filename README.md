@@ -1,5 +1,6 @@
-Workshop MozFest 2015 - Content-Mining for Transparency of Drug Research
+Workshop MozFest 2015
 ==============================
+**Content-Mining for Transparency of Drug Research**
 
 Applying content mining tools to large corpora of scientific texts benefits researchers and the public through increased efficiency and transparency. With playground data from the field of drug trials and the help of ContentMine tools, we will explore how to create and visualize relations between entities, e.g. authors and companies, or drugs and diseases.
 
@@ -45,7 +46,7 @@ Copyright-holder for all works is the Shuttleworth Foundation.
 |---------------|--------------|------------------------------------------------------------------------|
 | 10:45 - 11:10 | Introduction | Introduction into the workshop and ContentMine.                        |
 | 11:10 - 12:15 | Hacking      | Analyzing and visualizing the data with an iPython notebook in groups. |
-| 12:15 - 13:00 | World Cafe   | Discussing Content Mining in groups.                                   |
+| 12:15 - 13:00 | World Cafe   | Discuss Content Mining in groups.                                      |
 
 ## Install Anaconda and jupyter notebook
 
@@ -89,7 +90,7 @@ Write the facilitator directly (mail ett stefankasberger dot at, web ett christo
 
 ## STRUCTURE
 - [README.md](README.md): Overview of repository
-- [MozFest2015.ipynb]: Jupyter notebook
+- [MozFest2015.ipynb](MozFest2015.ipynb): Jupyter notebook
 
 
 
