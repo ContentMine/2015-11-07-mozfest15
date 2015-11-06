@@ -24,7 +24,7 @@ Please take 3 minutes and fill out our [evaluation form](https://docs.google.com
 - [@contentmine](http://twitter.com/thecontentmine)
 - office@contentmine.org
 
-![ContentMine Logo](CM_logo.png)
+![ContentMine Logo](code/CM_logo.png)
 
 **Used Software**
 
