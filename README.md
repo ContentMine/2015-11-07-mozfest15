@@ -69,7 +69,7 @@ On Mac OS, please use the installer called *Anaconda-MacOSX.pkg*. Run the instal
 
 **Linux**
 
-On Linux, open the terminal, navigate to the copied folder and into the *anaconda*-subfolder. In your terminal window execute for the correct bit version (you can find that under *System* -> *Settings* -> *Details* or via the terminal command *uname -m*:
+On Linux, open the terminal, navigate to the copied folder and into the *anaconda*-subfolder. In your terminal window execute for the correct bit version (you can find that under *System* -> *Settings* -> *Details* or via the terminal command *uname -m*):
 ```
 bash Anaconda-Linux-32bit.sh 
 ```
