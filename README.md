@@ -31,7 +31,7 @@ Python [Anaconda](https://www.continuum.io/why-anaconda) with [Jupyter](http://j
 
 **Used Data**
 
-Open Access articles from the Trials Journal](http://trialsjournal.com/) were used.
+Open Access articles from the [Trials Journal](http://trialsjournal.com/) were used.
 
 **Copyright**
 
@@ -49,26 +49,55 @@ Copyright-holder for all works is the [Shuttleworth Foundation](http://shuttlewo
 | 11:15 - 12:15 | Hands-On     | Analyse and visualize the data with a Jupyter notebook in groups. |
 | 12:15 - 13:00 | World Cafe   | Discuss ContentMining in groups.                                      |
 
+
+
+## Copy data
+
+We compiled a dataset and a folder with installers in advance and provide it offline during the workshop. Please copy the folder called *MozFest2015* into your preferred working directory or onto the desktop.
+
 ## Install Anaconda and jupyter notebook
 
-### Copy data
+We tested the installation on linux and windows, but not on Mac. It will install a number of Python 2.7 packages. If you already have nltk, networkx, beautifulsoup and ipython installed, you don't need to install anaconda.
 
-### Install anaconda
+Installers for the Anaconda environment  and jupyter/ipython notebooks will be provided offline during the workshop, and can otherwise be downloaded from [here](https://www.continuum.io/downloads). Anaconda provides us with an easy to install environment, and includes the all software used for this workshop. You can use it for a alot of purposes afterwards as well.
+
+They can be found in the *anaconda* folder in the *Mozfest2015* folder.
 
 **Mac OS**
 
-name file
+On Mac OS, please use the installer called *Anaconda-MacOSX.pkg*. Run the installer and follow the instructions.
 
 **Linux**
 
-name file
-
+On Linux, open the terminal, navigate to the copied folder and into the *anaconda*-subfolder. In your terminal window execute for the correct bit version (you can find that under *System* -> *Settings* -> *Details* or via the terminal command *uname -m*:
+```
+bash Anaconda-Linux-32bit.sh 
+```
+or
+```
+bash Anaconda-Linux-64bit.sh 
+```
+Important: Type "bash" regardless of whether or not you are actually using the bash shell.
 
 **Windows**
 
-name file
+On Windows, please select the correct bit-version for your system (instruction how you can find that out which version you have are [here](http://windows.microsoft.com/en-us/windows7/find-out-32-or-64-bit)). You can look them up under *Start* -> Right Click *Computer* -> *Properties* -> System.
+
+Double click either *Anaconda-Windows-32bit.exe* or *Anaconda-Windows-64bit.exe*.
 
 ### Start Jupyter notebook
+
+The sessions starts with the most complicated thing - opening the notebook via the command line. So, open a new command line (terminal on Linux and Mac) and navigate to the copied folder. This is done by typing *cd DIR* (which stands for *change directory to DIR*).
+
+```
+cd your_working_directory/MozFest2015
+```
+
+Note: On Windows, folders are indicated by `\`, on Linux/Mac by `/`.
+
+You can check whether you are in the right folder by typing `ls` (which stands for *list*) or on Windows `dir`. It prints a list of folder contents, if there is a file called *MozFest2015.ipynb*, you*re right.
+
+Then type in `ipython notebook`, after which a new tab in your browser should open. In this tab, click on MozFest2015.ipynb and you finally arrived in the notebook.
 
 ## Introduction
 - Slides
@@ -81,7 +110,7 @@ name file
 
 ## Contribute
 
-We're so glad you're thinking about contributing to ContentMine!
+We're happy you're thinking about contributing to ContentMine!
 
 There are many ways to contribute:
 - by reporting an issue regarding software or training
