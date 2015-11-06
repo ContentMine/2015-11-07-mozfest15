@@ -12,7 +12,8 @@ Applying content mining tools to large corpora of scientific texts benefits rese
 	- Stefan Kasberger ([@stefankasberger](https://twitter.com/stefankasberger))
 - Language: English
 - [Pad](http://pads.cottagelabs.com/p/mozfest15)
-- [Webpage](http://contentmine.org/events/event/mozfest15-workshop/) 
+- [MozFest](https://schedule.mozillafestival.org/#_session-273)
+- [ContentMine.org](http://contentmine.org/events/event/mozfest15-workshop/) 
 - hashtag: [#mozfest](https://twitter.com/hashtag/MozFest?src=hash)
 
 Please take 3 minutes and fill out our [evaluation form](https://docs.google.com/forms/d/13BsoUTHnYbYn1JDYyiF_pLbrxubgVKktvDzvkl7WCgM/viewform) after the workshop.
@@ -34,7 +35,7 @@ Open Access articles from the Trials Journal](http://trialsjournal.com/) were us
 
 **Copyright**
 
-Copyright-holder for all works is the Shuttleworth Foundation.
+Copyright-holder for all works is the [Shuttleworth Foundation](http://shuttleworthfoundation.org/).
 - License for text, slides and images: CC BY 4.0
 	- Except MozFest Logo
 - License for code: MIT
@@ -44,9 +45,9 @@ Copyright-holder for all works is the Shuttleworth Foundation.
 
 | Time          | Agenda       | Description                                                            |
 |---------------|--------------|------------------------------------------------------------------------|
-| 10:45 - 11:10 | Introduction | Introduction into the workshop and ContentMine.                        |
-| 11:10 - 12:15 | Hacking      | Analyzing and visualizing the data with an iPython notebook in groups. |
-| 12:15 - 13:00 | World Cafe   | Discuss Content Mining in groups.                                      |
+| 10:45 - 11:15 | Introduction | Introduction into the workshop and ContentMine.                        |
+| 11:15 - 12:15 | Hands-On     | Analyse and visualize the data with a Jupyter notebook in groups. |
+| 12:15 - 13:00 | World Cafe   | Discuss ContentMining in groups.                                      |
 
 ## Install Anaconda and jupyter notebook
 
@@ -55,16 +56,19 @@ Copyright-holder for all works is the Shuttleworth Foundation.
 ### Install anaconda
 
 **Mac OS**
+
 name file
 
 **Linux**
+
 name file
 
 
 **Windows**
+
 name file
 
-### Start ipython notebook
+### Start Jupyter notebook
 
 ## Introduction
 - Slides
@@ -75,8 +79,24 @@ name file
 
 ## World Cafe
 
-## Get Involved
-Write the facilitator directly (mail ett stefankasberger dot at, web ett christopherkittel dot eu)
+## Contribute
+
+We're so glad you're thinking about contributing to ContentMine!
+
+There are many ways to contribute:
+- by reporting an issue regarding software or training
+- by starting your own community
+- by suggesting new features
+- by writing code and documentation
+- by closing issues
+- by writing about the project
+
+If you have questions, ask us directly at MozFest or write us a mail (mail ett stefankasberger dot at, web ett christopherkittel dot eu).
+
+When you are online, you can find us:
+- [contentmine.org](http://contentmine.org)
+- [@thecontentmine](http://twitter.com/thecontentmine)
+- office ett contentmine dot org
 
 ## Further materials
 - [workshop Resources](https://github.com/ContentMine/workshop-resources): All resources for the ContentMine software toolchain - from getpapers and quickscrape over norma and AMI, this repository is the central source of tutorials for the ContentMine software pipeline.
