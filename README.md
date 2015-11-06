@@ -12,6 +12,7 @@ Applying content mining tools to large corpora of scientific texts benefits rese
 	- Stefan Kasberger ([@stefankasberger](https://twitter.com/stefankasberger))
 - Language: English
 - [Pad](http://pads.cottagelabs.com/p/mozfest15)
+- [Slides](http://www.slideshare.net/cheeseman1983/mozfest15-ws-contentmining-for-transparency-of-drug-research)
 - [MozFest](https://schedule.mozillafestival.org/#_session-273)
 - [ContentMine.org](http://contentmine.org/events/event/mozfest15-workshop/) 
 - hashtag: [#mozfest](https://twitter.com/hashtag/MozFest?src=hash)
@@ -28,6 +29,11 @@ Please take 3 minutes and fill out our [evaluation form](https://docs.google.com
 **Used Software**
 
 Python [Anaconda](https://www.continuum.io/why-anaconda) with [Jupyter](http://jupyter.org/), [networkX](https://networkx.github.io/), [nltk](http://www.nltk.org/) and [beautifulsoup4](http://www.crummy.com/software/BeautifulSoup/)
+
+You can find our code here:
+- [code/MozFest2015.ipynb](code/MozFest2015.ipynb): Jupyter notebook
+- [code/resources/analysis.py](code/resources/analysis.py): Functions for plotting and entitiy extraction. Have to be used with the stanford parser.
+- [code/resources/readctree.py](code/resources/readctree.py): Classes for CProject and CTree.
 
 **Used Data**
 
@@ -48,7 +54,6 @@ Copyright-holder for all works is the [Shuttleworth Foundation](http://shuttlewo
 | 10:45 - 11:15 | Introduction | Introduction into the workshop and ContentMine.                        |
 | 11:15 - 12:15 | Hands-On     | Analyse and visualize the data with a Jupyter notebook in groups. |
 | 12:15 - 13:00 | World Cafe   | Discuss ContentMining in groups.                                      |
-
 
 
 ## Copy data
@@ -99,15 +104,6 @@ You can check whether you are in the right folder by typing `ls` (which stands f
 
 Then type in `ipython notebook`, after which a new tab in your browser should open. In this tab, click on MozFest2015.ipynb and you finally arrived in the notebook.
 
-## Introduction
-- Slides
-
-## Hacking
-- jupyter notebook
-- python scripts
-
-## World Cafe
-
 ## Contribute
 
 We're happy you're thinking about contributing to ContentMine!
@@ -139,7 +135,11 @@ When you are online, you can find us:
 
 ## STRUCTURE
 - [README.md](README.md): Overview of repository
-- [MozFest2015.ipynb](MozFest2015.ipynb): Jupyter notebook
+- [code/MozFest2015.ipynb](code/MozFest2015.ipynb): Jupyter notebook
+- [code/resources/analysis.py](code/resources/analysis.py): Functions for plotting and entitiy extraction. Have to be used with the stanford parser.
+- [code/resources/readctree.py](code/resources/readctree.py): Classes for CProject and CTree.
+- [assets/mozfest15.odp](assets/mozfest15.odp): Presentation
+- [assets/mozfest15.pdf](assets/mozfest15.pdf): Presentation
 
 
 
