@@ -57,11 +57,11 @@ We compiled a dataset and a folder with installers in advance and provide it off
 
 ## Install Anaconda and jupyter notebook
 
-We tested the installation on linux and windows, but not on Mac. It will install a number of Python 2.7 packages. If you already have nltk, networkx, beautifulsoup and ipython installed, you don't need to install anaconda.
+We tested the installation on linux and windows, but not on Mac. It will install a number of Python 2.7 packages. If you already have the python packages nltk, networkx, beautifulsoup and ipython installed, you don't need to install anaconda.
 
-Installers for the Anaconda environment  and jupyter/ipython notebooks will be provided offline during the workshop, and can otherwise be downloaded from [here](https://www.continuum.io/downloads). Anaconda provides us with an easy to install environment, and includes the all software used for this workshop. You can use it for a alot of purposes afterwards as well.
+Installers for the Anaconda environment and jupyter/ipython notebooks will be provided offline during the workshop, and can otherwise be downloaded from [here](https://www.continuum.io/downloads). Anaconda provides us with an easy to install environment, and includes the all software used for this workshop. You can use it for a a lot of fun purposes afterwards as well.
 
-They can be found in the *anaconda* folder in the *Mozfest2015* folder.
+Installers can be found in the *anaconda* folder in the *Mozfest2015* folder.
 
 **Mac OS**
 
