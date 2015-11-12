@@ -126,7 +126,44 @@ def loop_over_ngrams(tokens, text):
     return tokens_found
 
 
+def create_network(CProject, plugin, query):
+        """
+        Creates the network between papers and plugin results.
+        
+        Args: CProject object
+              plugin = "string"
+              query = "string"
+        
+        Returns: (bipartite_graph, monopartite_graph, paper_nodes, fact_nodes)
+        """
+        
+        B = nx.Graph()
+        labels = {}
+
+        for ct in CProject.get_ctrees():
+            
+            ctree_ID, ctree = ct.items()[0]
+
+            results = ctree.show_results(plugin).get(query, [])
+
+            if len(results) > 0:
+                B.add_node(ctree_ID, bipartite=0)
+                labels[str(ctree_ID)] = str(ctree_ID)
+
+                for result in results:
+                    B.add_node(result, bipartite=1)
+                    labels[result] = result.encode("utf-8").decode("utf-8")
+                    # add a link between a paper and author
+                    B.add_edge(ctree_ID, result)
+
+        
+        paper_nodes = set(n for n,d in B.nodes(data=True) if d['bipartite']==0)
+        fact_nodes = set(B) - paper_nodes
+        G = bipartite.weighted_projected_graph(B, fact_nodes)
+        
+        return B, G, paper_nodes, fact_nodes
     
+
 def plotGraph(graph, color="r", figsize=(12, 8)):
     
     labels = {n:n for n in graph.nodes()}
@@ -223,3 +260,4 @@ def create_subgraph(cproject, B, G, target):
 
 def save_graph(graph, color):
     plotGraph(graph, color, figsize=(36, 23)).savefig("Your-Graph.png")
+
